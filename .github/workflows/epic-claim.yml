@@ -29,4 +29,6 @@ jobs:
         env:
           EMAIL: ${{ secrets.EPIC_EMAIL }}
           PASSWORD: ${{ secrets.EPIC_PASSWORD }}
+          OTP_KEY: ${{ secrets.EPIC_OTP_KEY }}
         run: node epic-games
+        
